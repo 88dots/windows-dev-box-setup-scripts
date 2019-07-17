@@ -1,4 +1,9 @@
+choco install -y VirtualMachinePlatform --source="'windowsfeatures'"
 choco install -y Microsoft-Windows-Subsystem-Linux --source="'windowsfeatures'"
+
+# Set WSL to use version 2 as default
+RefreshEnv
+wsl --set-default-version 2
 
 #--- Ubuntu ---
 # TODO: Move this to choco install once --root is included in that package

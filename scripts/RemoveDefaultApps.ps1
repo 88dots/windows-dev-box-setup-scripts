@@ -45,8 +45,8 @@ $applicationList = @(
 	"Microsoft.Print3D"
 	"*Autodesk*"
 	"*BubbleWitch*"
-    "king.com*"
-    "G5*"
+	"king.com*"
+	"G5*"
 	"*Dell*"
 	"*Facebook*"
 	"*Keeper*"
@@ -60,5 +60,5 @@ $applicationList = @(
 );
 
 foreach ($app in $applicationList) {
-    removeApp $app
+	removeApp $app
 }

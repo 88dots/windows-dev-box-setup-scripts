@@ -1,4 +1,8 @@
 #--- Configuring Windows properties ---
+# System-level configuration
+Disable-BingSearch
+Disable-GameBarTips
+
 #--- Windows Features ---
 # Show hidden files, Show protected OS files, Show file extensions
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
@@ -13,3 +17,6 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 #taskbar where window is open for multi-monitor
 Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced -Name MMTaskbarMode -Value 2
 
+#--- Taskbar Settings ---
+Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -Lock
+Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
