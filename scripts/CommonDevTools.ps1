@@ -6,7 +6,6 @@ choco install -y inconsolata
 choco install -y atom
 choco install -y vscode
 choco install -y notepadplusplus.install
-choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
 choco install -y 7zip.install
 choco install -y sysinternals
 

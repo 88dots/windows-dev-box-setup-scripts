@@ -1,5 +1,5 @@
-choco install -y VirtualMachinePlatform --source="'windowsfeatures'"
-choco install -y Microsoft-Windows-Subsystem-Linux --source="'windowsfeatures'"
+choco install -y VirtualMachinePlatform --source="'windowsFeatures'"
+choco install -y Microsoft-Windows-Subsystem-Linux --source="'windowsFeatures'"
 
 # Set WSL to use version 2 as default
 RefreshEnv

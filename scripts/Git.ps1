@@ -1,0 +1,1 @@
+choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
