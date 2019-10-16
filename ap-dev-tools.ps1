@@ -31,7 +31,7 @@ choco install -y visualstudio2017-workload-nativedesktop
 choco install -y visualstudio2019community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
 Update-SessionEnvironment #refreshing env due to Git install
 choco install -y visualstudio2019-workload-nativedesktop
-choco install -y visualstudio2019-workload-nativegame --package-parameters="'--add Component.Unreal'"
+choco install -y visualstudio2019-workload-nativegame
 
 #--- reenabling critial items ---
 Enable-UAC
