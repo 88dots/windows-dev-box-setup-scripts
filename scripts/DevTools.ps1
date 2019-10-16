@@ -1,5 +1,5 @@
 # git
-choco install -y git.install --params '"/GitAndUnixToolsOnPath /WindowsTerminal /SChannel"'
+choco install git.install --params='/GitAndUnixToolsOnPath /WindowsTerminal /SChannel' -y
 
 # tools we expect devs across many scenarios will want
 choco install -y atom
