@@ -1,5 +1,5 @@
-# About this project
-The goal of this project is to provide a central place to share ideas for streamlining dev box setup and provide sample scripts for common dev scenarios. It's likely you will want to take the scripts here and modify them to fit your particular needs. When you make those changes if you think others would benefit please consider submitting a PR. Before you contribute please see the [Contribution Guidelines](CONTRIBUTING.md).
+# Dev Box Setup
+A one-click streamlined process to setup your development machine. 
 
 These scripts leverage two popular open source projects.
 - Boxstarter [boxstarter.org](http://boxstarter.org)
