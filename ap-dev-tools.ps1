@@ -1,6 +1,5 @@
-# Description: Boxstarter Script
-# Author: Microsoft
-# Common dev settings for desktop app development
+# Description: Aperion Development Tools
+# Author: Counterplay Games
 
 Disable-UAC
 
@@ -21,36 +20,19 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-#--- Setting up Windows ---
-executeScript "SystemConfiguration.ps1";
-executeScript "FileExplorerSettings.ps1";
-executeScript "RemoveDefaultApps.ps1";
-executeScript "CommonDevTools.ps1";
-executeScript "OpsTools.ps1";
-# executeScript "WSL.ps1";
-executeScript "Browsers.ps1";
-
-#--- Tools ---
-#--- Installing VS and VS Code with Git
-# See this for install args: https://chocolatey.org/packages/VisualStudio2017Community
-# https://docs.microsoft.com/en-us/visualstudio/install/workload-component-id-vs-community
-# https://docs.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio#list-of-workload-ids-and-component-ids
-# visualstudio2017community
-# visualstudio2017professional
-# visualstudio2017enterprise
+executeScript "DevTools.ps1";
 
 #---  vs 2017 with desktop development workload ---
 choco install -y visualstudio2017community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
 Update-SessionEnvironment #refreshing env due to Git install
 choco install -y visualstudio2017-workload-nativedesktop
 
-#---  vs 2017 with desktop development and gaming workload ---
+#---  vs 2019 with desktop development and gaming workload ---
 choco install -y visualstudio2019community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
 Update-SessionEnvironment #refreshing env due to Git install
-choco install -y visualstudio2019-workload-nativedesktop --package-parameters="'--add Component.Incredibuild --add Component.IncredibuildMenu'"
+choco install -y visualstudio2019-workload-nativedesktop
 choco install -y visualstudio2019-workload-nativegame --package-parameters="'--add Component.Unreal'"
 
 #--- reenabling critial items ---
 Enable-UAC
 Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula
