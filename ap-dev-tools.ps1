@@ -23,9 +23,9 @@ function executeScript {
 executeScript "DevTools.ps1";
 
 #---  vs 2017 with desktop development workload ---
-choco install -y visualstudio2017community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
-Update-SessionEnvironment #refreshing env due to Git install
-choco install -y visualstudio2017-workload-nativedesktop
+# choco install -y visualstudio2017community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
+# Update-SessionEnvironment #refreshing env due to Git install
+# choco install -y visualstudio2017-workload-nativedesktop
 
 #---  vs 2019 with desktop development and gaming workload ---
 choco install -y visualstudio2019community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
