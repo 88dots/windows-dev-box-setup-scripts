@@ -13,10 +13,9 @@ To run a recipe script, click a link in the table below from your target machine
 
 |Click link to run  |Description  |
 |---------|---------|
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/88dots/windows-dev-box-setup-scripts/master/cpg-tools.ps1'>Team Tools</a>     | `CPG` Common Team Tools |
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/88dots/windows-dev-box-setup-scripts/master/vs-build.ps1'>VS Build Tools</a>     | `Aperion` Development Tools |
 |<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/88dots/windows-dev-box-setup-scripts/master/windows-common.ps1'>Windows Setup</a>     | Optionally configure Windows with common defaults |
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/88dots/windows-dev-box-setup-scripts/master/cpg-team-tools.ps1'>Team Tools</a>     | `CPG` Common Team Tools |
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/88dots/windows-dev-box-setup-scripts/master/ap-dev-tools.ps1'>Developer Tools</a>     | `Aperion` Development Tools |
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/88dots/windows-dev-box-setup-scripts/master/ap-ops-tools.ps1'>Ops Tools</a>     | `Aperion` Ops Tools |
 
 ## What's Installed
 ### `CPG` Common Tools

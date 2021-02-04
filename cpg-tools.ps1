@@ -1,4 +1,4 @@
-# Description: Aperion Ops Tools
+# Description: CPG Development Tools
 # Author: Counterplay Games
 
 Disable-UAC
@@ -20,12 +20,8 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-executeScript "OpsHyperV.ps1";
-RefreshEnv
-executeScript "OpsWSL.ps1";
-RefreshEnv
-executeScript "OpsTools.ps1";
+executeScript "install-cpg-tools.ps1";
 
-#--- reenabling critial items ---
+#--- re-enabling critial items ---
 Enable-UAC
 Enable-MicrosoftUpdate

@@ -1,4 +1,4 @@
-# Description: CPG Team Tools
+# Description: CPG Development Tools
 # Author: Counterplay Games
 
 Disable-UAC
@@ -20,8 +20,8 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-executeScript "TeamTools.ps1";
+executeScript "install-vs-build.ps1";
 
-#--- reenabling critial items ---
+#--- re-enabling critial items ---
 Enable-UAC
 Enable-MicrosoftUpdate

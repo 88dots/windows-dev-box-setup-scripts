@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "components": [
+    "Microsoft.NetCore.Component.Runtime.3.1",
+    "Microsoft.NetCore.Component.SDK",
+    "Microsoft.Net.Component.4.6.1.TargetingPack",
+    "Microsoft.Net.Component.4.8.SDK",
+    "Microsoft.Net.Component.4.7.2.TargetingPack",
+    "Microsoft.Net.ComponentGroup.DevelopmentPrerequisites",
+    "Microsoft.Component.MSBuild",
+    "Microsoft.VisualStudio.Component.TextTemplating",
+    "Microsoft.Net.Component.4.5.2.TargetingPack",
+    "Microsoft.Net.Component.4.5.TargetingPack",
+    "Microsoft.Net.Component.4.TargetingPack",
+    "Microsoft.Net.Component.4.5.1.TargetingPack",
+    "Microsoft.Net.Component.4.6.TargetingPack",
+    "Microsoft.Net.ComponentGroup.TargetingPacks.Common",
+    "Microsoft.Net.Core.Component.SDK.2.1",
+    "Microsoft.Net.Component.4.6.2.TargetingPack",
+    "Microsoft.VisualStudio.Component.VC.CoreIde",
+    "Microsoft.VisualStudio.Component.VC.Tools.x86.x64",
+    "Microsoft.VisualStudio.Component.Windows10SDK.18362",
+    "Microsoft.Component.NetFX.Native",
+    "Microsoft.Net.Component.4.6.1.SDK",
+    "Microsoft.VisualStudio.Component.VC.14.24.x86.x64",
+    "Microsoft.VisualStudio.Component.VC.14.24.CLI.Support"
+  ]
+}
