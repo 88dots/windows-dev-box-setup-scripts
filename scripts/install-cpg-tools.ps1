@@ -27,9 +27,6 @@ choco install -y yarn
 # golang
 choco install -y golang
 
-# docker
-choco install -y docker-desktop
-
 # aws
 choco install -y awscli
 
@@ -72,3 +69,6 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 # winget
 Invoke-WebRequest -Uri https://github.com/microsoft/winget-cli/releases/download/v-0.2.10191-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle -OutFile Winget.appx -UseBasicParsing
 Add-AppxPackage .\Winget.appx
+
+# docker
+choco install -y docker-desktop
