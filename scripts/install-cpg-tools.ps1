@@ -12,7 +12,7 @@ choco install -y 7zip.install
 choco install -y sysinternals
 choco install -y jq
 choco install -y curl
-choco install -y windows-sdk-10-version-2004-windbg
+# choco install -y windows-sdk-10-version-2004-windbg
 
 # python 3 and pip
 choco install -y python
